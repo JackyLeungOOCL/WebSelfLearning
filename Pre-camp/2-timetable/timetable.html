@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timetable</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="timetable.css">
+</head>
+<body>
+<div class="container">
+<table class="table table-bordered">
+	<thead class="thead-dark"><tr>
+		<th>Timeslot</th>
+		<th>Sun</th>
+		<th>Mon</th>
+		<th>Tue</th>
+		<th>Wed</th>
+		<th>Thu</th>
+		<th>Fri</th>
+		<th>Sat</th>
+	</tr>
+	</thead>
+	<tbody class="table-striped">
+		<tr>
+			<td class="time">8:30</td>
+			<td class="holiday"></td>
+			<td colspan="1" rowspan="3">
+				<div class="sub sub-1">
+					<div class="sub-container"><span class="sub-inner">
+						<strong>COMP1234</strong><br>
+						@PQ123<br>
+						<em>LEC001</em>
+					</span></div>
+				</div>
+			</td>
+			<td></td>
+			<td rowspan="3">
+				<div class="sub sub-1">
+					<div class="sub-container"><span class="sub-inner">
+						<strong>COMP1234</strong><br>
+						@PQ123<br>
+						<em>LEC001</em>
+					</span></div>
+				</div>
+			</td>
+			<td></td>
+			<td></td>
+			<td class="holiday"></td>
+		</tr>
+		<tr>
+			<td class="time">9:30</td>
+			<td class="holiday"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="holiday"></td>
+		</tr>
+		<tr>
+			<td class="time">10:30</td>
+			<td class="holiday"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="holiday"></td>
+		</tr>
+		<tr>
+			<td class="time">11:30</td>
+			<td class="holiday"></td>
+			<td></td>
+			<td>
+				<div class="sub sub-2">
+					<div class="sub-container"><span class="sub-inner">
+						<strong>COMP4321</strong><br>
+						@PQ678<br>
+						<em>TUT003</em>
+					</span></div>
+				</div>
+			</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="holiday"></td>
+		</tr>
+		<tr>
+			<td class="time">12:30</td>
+			<td class="holiday"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="holiday"></td>
+		</tr>
+		<tr>
+			<td class="time">13:30</td>
+			<td class="holiday"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td rowspan="2">
+				<div class="sub sub-2">
+					<div class="sub-container"><span class="sub-inner">
+						<strong>COMP4321</strong><br>
+						@P528<br>
+						<em>LEC002</em>
+					</span></div>
+				</div>
+			</td>
+			<td></td>
+			<td class="holiday"></td>
+		</tr>
+		<tr>
+			<td class="time">14:30</td>
+			<td class="holiday"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="holiday"></td>
+		</tr>
+		<tr>
+			<td class="time">15:30</td>
+			<td class="holiday"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="holiday"></td>
+		</tr>
+		<tr>
+			<td class="time">16:30</td>
+			<td class="holiday"></td>
+			<td rowspan="2">
+				<div class="sub sub-3">
+					<div class="sub-container"><span class="sub-inner">
+						<strong>ELC2233</strong><br>
+						@R322<br>
+						<em>SEM001</em>
+					</span></div>
+				</div>
+			</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td rowspan="2">
+				<div class="sub sub-3">
+					<div class="sub-container"><span class="sub-inner">
+						<strong>ELC2233</strong><br>
+						@R322<br>
+						<em>SEM001</em>
+					</span></div>
+				</div>
+			</td>
+			<td class="holiday"></td>
+		</tr>
+		<tr>
+			<td class="time">17:30</td>
+			<td class="holiday"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="holiday"></td>
+		</tr>
+		<tr>
+			<td class="time">18:30</td>
+			<td class="holiday"></td>
+			<td></td>
+			<td></td>
+			<td rowspan="3">
+				<div class="sub sub-4">
+					<div class="sub-container"><span class="sub-inner">
+						<strong>APSS1081</strong><br>
+						@V282<br>
+						<em>SEM005</em>
+					</span></div>
+				</div>
+			</td>
+			<td></td>
+			<td></td>
+			<td class="holiday"></td>
+		</tr>
+		<tr>
+			<td class="time">19:30</td>
+			<td class="holiday"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="holiday"></td>
+		</tr>
+		<tr>
+			<td class="time">20:30</td>
+			<td class="holiday"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="holiday"></td>
+		</tr>
+		<tr>
+			<td class="time">21:30</td>
+			<td class="holiday"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="holiday"></td>
+		</tr>
+
+	</tbody>
+</table>
+</div>
+</body>
+</html>
